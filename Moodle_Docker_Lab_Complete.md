@@ -388,6 +388,16 @@ docker-compose logs -f moodle
 - "Apache/2.x.x configured"
 - "Server ready"
 
+**กรณีที่ใช้ image moodle:latest แล้วมี erors ที่ log ให้ทดสอบรันคำสั่งดังนี้
+```bash
+docker exec -it moodle_app rm -f /etc/apache2/mods-enabled/shib.load /etc/apache2/mods-enabled/shib2.load
+docker exec -it moodle_app sh -c "grep -rnl 'shib' /etc/apache2/ | xargs sed -i 's/^/### /g' 2>/dev/null"
+docker exec -it moodle_app a2dismod brotli.load macro.load shib.load
+docker exec -it moodle_app rm -f /etc/apache2/mods-enabled/shib.load
+docker stop moodle_app
+docker start moodle_app
+
+```
 **บันทึกผลการทดลอง 4:**
 ```bash
  รูปผลการรัน docker-compose logs 
