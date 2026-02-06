@@ -657,6 +657,8 @@ Course Category ใช้จัดกลุ่มรายวิชาตาม�
 ```bash
  รูปหน้า  Category ที่มีการสร้างกลุ่ม ตามกลุ่มสาระของ สพฐ.
 ```
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/0ab4b802-cc3d-44a8-b620-083ca566541f" />
+
 
 #### 6.2.2 สร้าง Course (รายวิชา)
 
@@ -729,6 +731,7 @@ Learning outcomes:
 ```bash
  รูปหน้าผลลัพธ์การสร้างรายวิชา
 ```
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/67c8d94d-7f74-4802-b837-fd4a40918a01" />
 
 ---
 
@@ -790,6 +793,8 @@ Programming, Python, Data Science
 ```bash
  รูปหน้า ผลการสร้าง User ใหม่
 ```
+<img width="977" height="916" alt="image" src="https://github.com/user-attachments/assets/5d2db575-a9c9-46c7-b2d2-96899d471111" />
+
 
 **วิธีที่ 2: Upload Users (CSV)**
 
