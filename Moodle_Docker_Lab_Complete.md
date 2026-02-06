@@ -619,6 +619,8 @@ h1 {
 ```bash
  รูป ผลการปรับแต่ง Theme
 ```
+<img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/c191e90b-1809-4d79-a2b6-eb53d7dc436f" />
+
 ---
 
 ### 6.2 การจัดการ Course Categories และ Courses
