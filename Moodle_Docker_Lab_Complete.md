@@ -815,7 +815,8 @@ student003,Pass@123,สมศักดิ์,ขยัน,student003@example.com
 6. Preview และยืนยัน
 
 **บันทึกผลการทดลอง 10:**
-```bash
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a3660933-d6a3-43a1-8e3e-3c84f3468873" />
+
  รูปหน้า ผลการ Upload Users
 ```
 
